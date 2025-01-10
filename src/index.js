@@ -4,8 +4,8 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { configureStore } from "@reduxjs/toolkit";
-import rootReducer from "./myRedux/rootReducer";
 import { Provider } from "react-redux";
+import rootReducer from "./miniproject2/redux_modules/RootReducer";
 
 //1. 스토어 등록(state)
 const store = configureStore({
